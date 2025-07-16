@@ -37,23 +37,23 @@ export function Features() {
   ];
 
   return (
-    <div className="py-12">
-      <div className="text-center mb-8">
-        <h2 className="text-2xl font-bold mb-2">Why Choose QuickConvert?</h2>
+    <section className="py-12" aria-labelledby="features-heading">
+      <header className="text-center mb-8">
+        <h2 id="features-heading" className="text-2xl font-bold mb-2">Why Choose QuickConvert?</h2>
         <p className="text-muted-foreground">Fast, secure, and completely free image conversion</p>
-      </div>
+      </header>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {features.map((feature, index) => (
           <Card key={index} className="p-6 text-center hover:shadow-md transition-shadow">
             <div className="h-12 w-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-              <feature.icon className="h-6 w-6 text-primary" />
+              <feature.icon className="h-6 w-6 text-primary" aria-hidden="true"/>
             </div>
             <h3 className="font-semibold mb-2">{feature.title}</h3>
             <p className="text-sm text-muted-foreground">{feature.description}</p>
           </Card>
         ))}
       </div>
-    </div>
+    </section>
   );
 }
