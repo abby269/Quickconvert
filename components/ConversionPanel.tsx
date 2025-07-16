@@ -38,7 +38,7 @@ export function ConversionPanel({ file, onReset }: ConversionPanelProps) {
           
           ctx.drawImage(img, 0, 0);
           
-          // Convert to the desired format
+          // Convert to desired format
           const mimeType = outputFormat === 'jpeg' ? 'image/jpeg' : `image/${outputFormat}`;
           canvas.toBlob((blob) => {
             if (blob) {

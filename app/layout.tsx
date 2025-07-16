@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { ThemeProvider } from "@/components/ThemeProvider"; // adjust path if needed
+import { ThemeProvider } from "@/components/ThemeProvider";
 
 export const metadata: Metadata = {
   title: "QuickConvert - Free Online Image Converter | JPG, PNG, WebP, GIF, BMP",
