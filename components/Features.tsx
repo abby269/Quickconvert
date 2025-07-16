@@ -37,7 +37,7 @@ export function Features() {
   ];
 
   return (
-    <section className="py-12" aria-labelledby="features-heading">
+    <section className="py-12 m-15 mt-0" aria-labelledby="features-heading">
       <header className="text-center mb-8">
         <h2 id="features-heading" className="text-2xl font-bold mb-2">Why Choose QuickConvert?</h2>
         <p className="text-muted-foreground">Fast, secure, and completely free image conversion</p>
