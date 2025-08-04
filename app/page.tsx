@@ -26,9 +26,9 @@ return (
       <Header />
 
       {/* Main Section with Ad Spaces */}
-      <div className="container mx-auto px-4 py-8 flex gap-4">
+      <div className="container mx-auto px-4 py-8 flex flex-col md:flex-row gap-4">
         {/* Left Ad Placeholder */}
-        <Card className="mt-6 bg-gradient-to-r from-green-100 to-blue-100 border-dashed border-2 border-green-300 h-[600px]">
+        <Card className="mt-6 bg-gradient-to-r from-green-100 to-blue-100 border-dashed border-2 border-green-300 h-[150px] md:h-[600px]">
           <CardContent className="p-4">
             <div className="text-center text-green-700">
               <p className="text-sm font-medium">🎯 Ad Space</p>
@@ -64,7 +64,7 @@ return (
         </main>
 
         {/* Right Ad Placeholder */}
-        <Card className="mt-6 bg-gradient-to-r from-green-100 to-blue-100 border-dashed border-2 border-green-300 h-[600px]">
+        <Card className="mt-6 bg-gradient-to-r from-green-100 to-blue-100 border-dashed border-2 border-green-300 h-[150px] md:h-[600px]">
           <CardContent className="p-4">
             <div className="text-center text-green-700">
               <p className="text-sm font-medium">🎯 Ad Space</p>
